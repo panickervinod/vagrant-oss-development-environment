@@ -77,7 +77,7 @@ Vagrant.configure("2") do |config|
 	#export http_proxy=http://192.168.1.19:3128
 
 	#update repo info
-    apt-get update
+  apt-get update
 
 	#ensure non-interactive updates
 	export DEBIAN_FRONTEND=noninteractive

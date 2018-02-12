@@ -16,7 +16,7 @@ if [ $DISPLAY == ":0" ] ; then
 		cd $vibase
 		git clone https://github.com/panickervinod/vagrant-oss-development-environment.git
 	else
-		repo="$vibase/vagrant-indy-development-environment"
+		repo="$vibase/vagrant-oss-development-environment"
 		if [ $(stat -c %Y $repo) -lt $(date +%s --date="120 min ago") ] ; then
 			echo update repo, more than 120 mins
 			cd $repo
